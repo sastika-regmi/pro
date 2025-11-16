@@ -43,9 +43,9 @@ const App: React.FC = () => {
       },
     ] as SkillCategory[],
     certifications: [
-      { name: "SEO & Digital Marketing", year: 2023, image: "/assets/certificates/SEO.png" },
-      { name: "HamroBazar Student Partnership", year: 2024, image: "/assets/certificates/Hamrobazar.jpg" },
-      { name: "Hackathon Runner-up as Team Coder", year: 2025, image: "/assets/certificates/Ncmt hackathon.png" },
+      { name: "SEO & Digital Marketing", year: 2023, image: "https://olivedrab-scorpion-763715.hostingersite.com/wp-content/uploads/2025/11/SEO.png" },
+      { name: "HamroBazar Student Partnership", year: 2024, image: "https://olivedrab-scorpion-763715.hostingersite.com/wp-content/uploads/2025/11/Hamrobazar-scaled.jpg" },
+      { name: "Hackathon Runner-up as Team Coder", year: 2025, image: "https://olivedrab-scorpion-763715.hostingersite.com/wp-content/uploads/2025/11/Ncmt-hackathon.png" },
     ] as Certification[],
     experience: [
       {

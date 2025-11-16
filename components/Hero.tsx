@@ -9,7 +9,7 @@ const Hero: React.FC<HeroProps> = ({ name }) => {
         <section id="hero" className="min-h-[70vh] flex items-center justify-center text-center px-4 py-20" itemScope itemType="https://schema.org/Person">
             <div className="space-y-6">
                 <div className="inline-block animate-bounce mb-4">
-                    <img src="/assets/pp.png" alt="Sastika Regmi - Web and Software Developer Profile Picture" title="Sastika Regmi" className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl mx-auto shadow-2xl object-cover border-4 border-white select-none" onContextMenu={(e) => e.preventDefault()} draggable="false" loading="eager" width="128" height="128" />
+                    <img src="https://olivedrab-scorpion-763715.hostingersite.com/wp-content/uploads/2025/11/pp.png" alt="Sastika Regmi - Web and Software Developer Profile Picture" title="Sastika Regmi" className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl mx-auto shadow-2xl object-cover border-4 border-white select-none" onContextMenu={(e) => e.preventDefault()} draggable="false" loading="eager" width="128" height="128" />
                 </div>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold" itemProp="name">
                     <span className="block text-gray-800 mb-2">Hi, I'm</span>
