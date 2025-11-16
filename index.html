@@ -1,13 +1,263 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Sastika Regmi - Web, Apps & Software Designer | UI/UX | Nepal</title>
+    <meta name="title" content="Sastika Regmi - Web, Apps & Software Designer | UI/UX | Nepal" />
+    <meta name="description" content="Sastika Regmi - Professional Web, Apps & Software Designer from Nepal. Skilled in React.js, Node.js, Python, MongoDB, SEO & Digital Marketing. BIT Student at NCMT College. View portfolio, projects & certifications." />
+    <meta name="keywords" content="Sastika Regmi, Web Developer Nepal, Software Developer Kathmandu, React Developer, Node.js Developer, Python Developer, Full Stack Developer, SEO Expert Nepal, Digital Marketing Nepal, NCMT College, BIT Student, Portfolio Website, E-commerce Developer, AI Developer, MongoDB Expert, JavaScript Developer, TypeScript Developer, Frontend Developer, Backend Developer, UI/UX Designer" />
+    <meta name="author" content="Sastika Regmi" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <link rel="canonical" href="https://sastikaregmi.com.np" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sastikaregmi.com.np" />
+    <meta property="og:title" content="Sastika Regmi - Web, Apps & Software Designer | Portfolio" />
+    <meta property="og:description" content="Professional Web, Apps & Software Designer from Nepal. Skilled in React.js, Node.js, Python, MongoDB, SEO & Digital Marketing. View portfolio & projects." />
+    <meta property="og:image" content="https://sastikaregmi.com.np/assets/pp.png" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Sastika Regmi Portfolio" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://sastikaregmi.com.np" />
+    <meta property="twitter:title" content="Sastika Regmi - Web, Apps & Software Designer" />
+    <meta property="twitter:description" content="Professional Web, Apps & Software Designer from Nepal. Skilled in React.js, Node.js, Python, MongoDB, SEO & Digital Marketing." />
+    <meta property="twitter:image" content="https://sastikaregmi.com.np/assets/pp.png" />
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="NP-BA" />
+    <meta name="geo.placename" content="Kathmandu" />
+    <meta name="geo.position" content="27.7172;85.3240" />
+    <meta name="ICBM" content="27.7172, 85.3240" />
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicon_io/site.webmanifest" />
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Structured Data - Person Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sastika Regmi",
+      "url": "https://sastikaregmi.com.np",
+      "image": "https://sastikaregmi.com.np/assets/pp.png",
+      "jobTitle": "Web, Apps and Software Designer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Skippy Education/Visa"
+      },
+      "email": "sastikaregmi746@gmail.com",
+      "telephone": "+977-9841069945",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "NCMT College",
+        "sameAs": "https://www.ncmtcollegenepal.edu.np/"
+      },
+      "knowsAbout": ["Web Development", "Software Development", "React.js", "Node.js", "Python", "JavaScript", "TypeScript", "MongoDB", "Express.js", "SEO", "Digital Marketing", "Database Management", "UI/UX Design"],
+      "sameAs": [
+        "https://github.com/sastika-regmi",
+        "https://www.linkedin.com/in/sastika-regmi-471023341/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kathmandu",
+        "addressRegion": "Bagmati",
+        "addressCountry": "NP"
+      },
+      "nationality": {
+        "@type": "Country",
+        "name": "Nepal"
+      }
+    }
+    </script>
+    
+    <!-- Structured Data - Portfolio/Website Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Sastika Regmi Portfolio",
+      "url": "https://sastikaregmi.com.np",
+      "description": "Professional portfolio of Sastika Regmi - Web, Apps & Software Designer from Nepal",
+      "author": {
+        "@type": "Person",
+        "name": "Sastika Regmi"
+      },
+      "inLanguage": "en-US"
+    }
+    </script>
+    
+    <!-- Structured Data - BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sastikaregmi.com.np"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://sastikaregmi.com.np#projects"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Skills",
+          "item": "https://sastikaregmi.com.np#skills"
+        }
+      ]
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body oncontextmenu="return false;" itemscope itemtype="https://schema.org/WebPage">
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/index.tsx"></script>
+    <script>
+      document.addEventListener('contextmenu', e => e.preventDefault());
+      document.addEventListener('dragstart', e => { if(e.target.tagName === 'IMG') e.preventDefault(); });
+      
+      // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C, Ctrl+U
+      document.addEventListener('keydown', e => {
+        if (e.keyCode === 123 || // F12
+            (e.ctrlKey && e.shiftKey && e.keyCode === 73) || // Ctrl+Shift+I
+            (e.ctrlKey && e.shiftKey && e.keyCode === 74) || // Ctrl+Shift+J
+            (e.ctrlKey && e.shiftKey && e.keyCode === 67) || // Ctrl+Shift+C
+            (e.ctrlKey && e.keyCode === 85)) { // Ctrl+U
+          e.preventDefault();
+          return false;
+        }
+      });
+      
+      // Detect DevTools - Multiple Methods
+      (function() {
+        // Method 1: Console detection
+        const devtools = /./;
+        devtools.toString = function() {
+          this.opened = true;
+        }
+        
+        // Method 2: Window size detection
+        let devtoolsOpen = false;
+        const threshold = 160;
+        
+        const checkDevTools = () => {
+          const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+          const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+          
+          if (widthThreshold || heightThreshold || devtools.opened) {
+            document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;font-size:24px;color:#ef4444;text-align:center;padding:20px;"><div><h1>⚠️ Access Denied</h1><p>Developer tools are not allowed on this portfolio.</p><p style="font-size:16px;margin-top:20px;">Please close developer tools and refresh the page.</p></div></div>';
+            return;
+          }
+          devtools.opened = false;
+        };
+        
+        setInterval(() => {
+          console.log('%c', devtools);
+          checkDevTools();
+        }, 500);
+        
+        // Method 3: Debugger trap
+        setInterval(() => {
+          (function(){}).constructor('debugger')();
+        }, 100);
+        
+        // Method 4: Window resize detection
+        window.addEventListener('resize', checkDevTools);
+      })();
+      
+      // Disable console
+      if(!window.console) window.console = {};
+      var methods = ["log", "debug", "warn", "info", "error"];
+      for(var i=0;i<methods.length;i++){
+        console[methods[i]] = function(){};
+      }
+      
+      // Block Screenshot - Print Screen
+      document.addEventListener('keyup', e => {
+        if (e.key === 'PrintScreen') {
+          navigator.clipboard.writeText('');
+          alert('Screenshots are disabled on this website!');
+        }
+      });
+      
+      // Detect screenshot attempts
+      document.addEventListener('keydown', e => {
+        // Block Print Screen, Windows+Shift+S, Command+Shift+4/5
+        if (e.key === 'PrintScreen' || 
+            (e.metaKey && e.shiftKey && (e.key === 's' || e.key === '4' || e.key === '5')) ||
+            (e.ctrlKey && e.key === 'p')) {
+          e.preventDefault();
+          alert('Screenshots and printing are disabled!');
+          return false;
+        }
+      });
+      
+      // Blur content when window loses focus (screenshot detection)
+      let blurTimeout;
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          document.body.style.filter = 'blur(20px)';
+          blurTimeout = setTimeout(() => {
+            document.body.style.filter = 'none';
+          }, 100);
+        } else {
+          clearTimeout(blurTimeout);
+          document.body.style.filter = 'none';
+        }
+      });
+      
+      // Prevent browser extensions from accessing images
+      const observer = new MutationObserver(() => {
+        document.querySelectorAll('img').forEach(img => {
+          img.oncontextmenu = () => false;
+          img.ondragstart = () => false;
+        });
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+      
+      // Block common extension shortcuts
+      document.addEventListener('keydown', e => {
+        // Block Ctrl+S (Save), Ctrl+P (Print)
+        if ((e.ctrlKey || e.metaKey) && (e.key === 's' || e.key === 'p')) {
+          e.preventDefault();
+          alert('Saving and printing are disabled!');
+          return false;
+        }
+      });
+    </script>
   </body>
 </html>
