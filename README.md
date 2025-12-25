@@ -1,20 +1,84 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sastika Regmi - Portfolio Website
 
-# Run and deploy your AI Studio app
+> Personal portfolio showcasing UI/UX design and web development projects
 
-This contains everything you need to run your app locally.
+## 🚀 Live Demo
+[https://sastikaregmi.com.np](https://sastikaregmi.com.np)
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 👨‍💻 About
+Portfolio website for Sastika Regmi - UI/UX Designer & Web, App & Software Designer from Nepal. BIT Student at NCMT College specializing in user-centered design and responsive interfaces.
 
-## Run Locally
+## 🛠️ Tech Stack
+- **Frontend:** React 19.2.0, TypeScript 5.8.2
+- **Build Tool:** Vite 6.2.0
+- **Styling:** Tailwind CSS
+- **Deployment:** Static Hosting
 
-**Prerequisites:**  Node.js
+## ✨ Features
+- 📱 Fully responsive design
+- 🎨 Modern UI with gradient effects
+- 🔍 SEO optimized with structured data
+- ⚡ Fast performance with Vite
+- 🔒 Content protection mechanisms
+- ♿ Accessibility support
 
+## 📦 Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+# Clone repository
+git clone https://github.com/sastika-regmi/portfolio.git
+
+# Navigate to directory
+cd sastika-regmi-pro
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 📂 Project Structure
+```
+├── components/          # React components
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── AboutSection.tsx
+│   ├── EducationSection.tsx
+│   ├── SkillsSection.tsx
+│   ├── ExperienceSection.tsx
+│   ├── ProjectsSection.tsx
+│   ├── CertificationsSection.tsx
+│   ├── AchievementsSection.tsx
+│   └── Footer.tsx
+├── public/              # Static assets
+├── App.tsx              # Main application
+├── types.ts             # TypeScript interfaces
+└── vite.config.ts       # Vite configuration
+```
+
+## 🎯 Sections
+- **Hero** - Introduction and profile
+- **About** - Professional summary
+- **Education** - Academic background
+- **Skills** - Technical and soft skills
+- **Experience** - Work history
+- **Projects** - Portfolio projects
+- **Certifications** - Certificates and awards
+- **Achievements** - Notable accomplishments
+- **Contact** - Social links and email
+
+## 📧 Contact
+- **Email:** sastikaregmi746@gmail.com
+- **Portfolio:** [sastikaregmi.com.np](https://sastikaregmi.com.np)
+- **GitHub:** [@sastika-regmi](https://github.com/sastika-regmi)
+- **LinkedIn:** [sastika-regmi](https://www.linkedin.com/in/sastika-regmi)
+
+## 📄 License
+All Rights Reserved © 2025 Sastika Regmi
